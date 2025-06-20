@@ -25,7 +25,7 @@ body {
 }
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     padding: 5rem;
     width: 60%;
