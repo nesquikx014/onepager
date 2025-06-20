@@ -41,8 +41,9 @@ const images = [
    "fotos/afbeelding10.jpg",
    "fotos/afbeelding11.jpg",
    "fotos/afbeelding12.jpg",
-   "fotos/afbeelding13.jpg"
-];
+   "fotos/afbeelding13.jpg",
+   "fotos/afbeelding14.jpg"
+  ];
 
 
 

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+  font-family: DINPro-bold;
     background: radial-gradient(circle, rgb(240, 214, 225) 0%, rgb(199, 210, 233) 100%);
 }
 .header {
@@ -19,6 +19,9 @@ body {
   justify-content: space-between;
   padding: 2.9rem;
   min-height: 10rem;
+}
+.header h1{
+color:burlywood;
 }
 .container {
     margin-bottom: 8rem;
@@ -33,7 +36,6 @@ margin-left: 50rem;
 border: 0.15rem solid rgb(0, 0, 0);
 
 }
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #000000;
   color: white;
@@ -51,8 +53,7 @@ input[type=submit]:hover {
 input[type=text], select, textarea {
   width: 100%; 
   padding: 1.2rem; 
-  border: 0.1rem solid #ccc; 
-  border-radius: 4px; 
+  border-radius: 0.4rem; 
   box-sizing: border-box;
   margin-top: 0.6rem; 
   margin-bottom: 1.6rem; 
@@ -63,6 +64,49 @@ input[type=text], select, textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 5rem;
+  margin-bottom: 10rem;
+  border: 0.1rem solid black;
+  background: white;
+box-sizing: border-box ;
+max-width: 47rem;
+  margin-left: 10rem;
+  border-radius: 0.4rem;
+  transition: transform .2s;
+    flex-direction: column;
+
+}
+.skills p{
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.skills:hover {
+  transform: scale(1.1);
+}
+.skills_tweede{
+display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-top: -20.5rem;
+  margin-bottom: 20rem;
+  border: 0.1rem solid black;
+  background: white;
+  box-sizing: border-box;
+  max-width: 44rem;
+  margin-left: 90rem;
+  border-radius: 0.4rem;
+  transition: transform .2s;
+  flex-direction: column;
+}
+.skills_tweede p{
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.skills_tweede:hover {
+  transform: scale(1.1);
 }

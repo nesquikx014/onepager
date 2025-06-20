@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+  font-family: DINPro-bold;
     background: radial-gradient(circle, rgb(240, 214, 225) 0%, rgb(199, 210, 233) 100%);
 }
 .header {
@@ -19,6 +19,9 @@ body {
   justify-content: space-between;
   padding: 2.9rem;
   min-height: 100px;
+}
+.header h1{
+  color: burlywood;
 }
 .card-container {
     display: grid;
